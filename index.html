@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #f9f9f9, #e0e0e0);
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header {
+      background: linear-gradient(135deg, #4e54c8, #8f94fb);
+      color: #fff;
+      padding: 3rem 2rem;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    header img {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+      border: 5px solid white;
+      transition: transform 0.3s ease;
+    }
+    header img:hover {
+      transform: scale(1.1);
+    }
+    section {
+      flex: 1;
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+    .services {
+      margin-top: 2rem;
+    }
+    .services h2, .contact h2 {
+      margin-bottom: 1rem;
+      color: #333;
+    }
+    .service-item {
+      margin-bottom: 1.5rem;
+    }
+    .service-item h3 {
+      color: #4e54c8;
+    }
+    .contact {
+      margin-top: 3rem;
+      text-align: center;
+    }
+    .get-in-touch {
+      display: inline-block;
+      margin-top: 1.5rem;
+      padding: 1rem 2rem;
+      background: #4e54c8;
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+    .get-in-touch:hover {
+      background: #8f94fb;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <img src="image/a-1.jpg" alt="Macbook Air">
+  <h1>Welcome to My Portfolio</h1>
+  <p>Crafting Digital Solutions That Inspire</p>
+</header>
+
+<section>
+  <div class="services">
+    <h2>My Services</h2>
+    <div class="service-item">
+      <h3>Web Design & Development</h3>
+      <p>Creating modern, responsive websites tailored to your brand.</p>
+    </div>
+    <div class="service-item">
+      <h3>Graphic Design</h3>
+      <p>Designing visuals that captivate and communicate your message effectively.</p>
+    </div>
+    <div class="service-item">
+      <h3>SEO & Marketing</h3>
+      <p>Optimizing your online presence to reach and engage a wider audience.</p>
+    </div>
+  </div>
+
+  <div class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: youremail@example.com</p>
+    <p>Phone: (123) 456-7890</p>
+    <a href="mailto:youremail@example.com" class="get-in-touch">Get in Touch</a>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 My Portfolio</p>
+</footer>
+
+</body>
+</html>
